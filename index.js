@@ -45,6 +45,8 @@ const player = new Fighter({
     y: 0,
   },
   color: "lightblue",
+  imageSrc: "./assets/character/enemy_red_idle.png",
+  scale: 2.5,
 });
 
 const enemy = new Fighter({
@@ -61,6 +63,8 @@ const enemy = new Fighter({
     y: 0,
   },
   color: "violet",
+  imageSrc : "./assets/character/char_blue_idle.png",
+  scale: 2.5,
 });
 
 const keys = {
@@ -84,7 +88,7 @@ const keys = {
   },
 };
 
-let timer = 10;
+let timer = 100;
 
 decreaseTimer();
 
